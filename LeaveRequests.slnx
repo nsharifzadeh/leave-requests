@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="LeaveRequests.Tests/LeaveRequests.Tests.csproj" />
+  <Project Path="LeaveRequests/LeaveRequests.csproj" />
+</Solution>
