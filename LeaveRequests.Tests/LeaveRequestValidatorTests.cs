@@ -15,7 +15,7 @@ public class UnitTest1
     public void Missing_employee_id_is_rejected()
     {
         var errors = LeaveRequestValidator.Validate(new LeaveRequest("", Jan1, Jan5));
-        Assert.Contains("Employee Id is requred", errors);
+        Assert.Contains("EmployeeId is required.", errors);
     }
 
     [Fact]
